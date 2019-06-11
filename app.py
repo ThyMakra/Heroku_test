@@ -13,7 +13,7 @@ def verify():
     #stop s.o else from intercepting
     if token == 'secret':
         return str(challenge)
-    return '400 '#bad request
+    return '400'#bad request
     #It could not be called if it is an integer
 #405 method not allowed
 
