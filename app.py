@@ -29,7 +29,7 @@ def webhook():
         #get only text message from user
         text_input = message['message'].get('text')
         print(f'message from user id {user_id} : {text_input}')
-        bot.send_text_message(user_id, 'hello world')
+        bot.send_text_message(user_id, 'fuk u ngrok')
     return '200'
 
 #write the code for the development server
