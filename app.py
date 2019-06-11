@@ -28,7 +28,7 @@ def webhook():
         user_id = message['sender']['id']
         #get only text message from user
         text_input = message['message'].get('text')
-        print(f'message from user id {user_id} : {text_input}')
+        # print(f'message from user id {user_id} : {text_input}')
         if text_input == 'how are you?':
             bot.send_text_message(user_id, "I'm not fine")
         else:
